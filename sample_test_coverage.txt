@@ -1,0 +1,82 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20150621144113
+Username: [removed]
+RunAs User: [removed]
+Machine: [removed] (Microsoft Windows NT 6.2.9200.0)
+Host Application: C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\5lkax3zb.fwb\PowerShellToolsProcessHost.exe /endpoint:585060e4-189c-46e5-b0a1-65200be13129 /vsPid:8092 /readyEventUniqueName:VsPowershellToolProcess:e4d211e2-1349-4460-a602-3fe151b309aa
+Process ID: 7856
+PSVersion: 5.0.10130.0
+WSManStackVersion: 3.0
+SerializationVersion: 1.1.0.1
+CLRVersion: 4.0.30319.42000
+BuildVersion: 10.0.10130.0
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0.10130.0
+PSRemotingProtocolVersion: 2.3
+**********************
+Transcript started, output file is ../test_coverage.txt
+rz_core_dom_document_impl.cpp: 100% coverage
+rz_core_dom_node_impl.cpp: 81% coverage, 13 of 70 executable lines are not covered
+	block:1 42->47 (spanning 6 text lines)
+	block:2 53->53 (spanning 1 text lines)
+	block:3 64->64 (spanning 1 text lines)
+	block:4 71->71 (spanning 1 text lines)
+	block:5 90->90 (spanning 1 text lines)
+	block:6 98->98 (spanning 1 text lines)
+	block:7 109->109 (spanning 1 text lines)
+	block:8 116->116 (spanning 1 text lines)
+	block:9 128->128 (spanning 1 text lines)
+rz_core_dom_node_impl.h: 100% coverage
+rz_core_angles.h: 100% coverage
+rz_core_bounding_box.cpp: 100% coverage
+rz_core_bounding_sphere.cpp: 100% coverage
+rz_core_clock.cpp: 100% coverage
+rz_core_conversion.cpp: 100% coverage
+rz_core_conversion.h: 100% coverage
+rz_core_dom_document.cpp: 100% coverage
+rz_core_dom_node.cpp: 100% coverage
+rz_core_dom_node.h: 100% coverage
+rz_core_finally_pattern.h: 100% coverage
+rz_core_game.cpp: 100% coverage
+rz_core_indent.cpp: 100% coverage
+rz_core_lap_timer.cpp: 100% coverage
+rz_core_lua_utils.cpp: 0% coverage, none of the 13 executable lines are covered
+rz_core_macros.h: 100% coverage
+rz_core_math_templates.h: 100% coverage
+rz_core_matrix.cpp: 100% coverage
+rz_core_matrix.h: 100% coverage
+rz_core_matrix_factory.cpp: 34% coverage, 115 of 174 executable lines are not covered
+	block:1 19->76 (spanning 58 text lines)
+	block:2 112->114 (spanning 3 text lines)
+	block:3 157->253 (spanning 97 text lines)
+rz_core_object_interfaces.h: 0% coverage, none of the 1 executable lines are covered
+rz_core_plane.cpp: 100% coverage
+rz_core_printf.h: 100% coverage
+rz_core_random.cpp: 100% coverage
+rz_core_random.h: 100% coverage
+rz_core_range.h: 100% coverage
+rz_core_ray.cpp: 25% coverage, 74 of 99 executable lines are not covered
+	block:1 15->16 (spanning 2 text lines)
+	block:2 40->53 (spanning 14 text lines)
+	block:3 58->63 (spanning 6 text lines)
+	block:4 70->72 (spanning 3 text lines)
+	block:5 78->78 (spanning 1 text lines)
+	block:6 85->85 (spanning 1 text lines)
+	block:7 90->103 (spanning 14 text lines)
+	block:8 111->166 (spanning 56 text lines)
+rz_core_rectangle.cpp: 10% coverage, 53 of 59 executable lines are not covered
+	block:1 23->114 (spanning 92 text lines)
+rz_core_vector2.h: 100% coverage
+rz_core_vector2_factory.cpp: 100% coverage
+rz_core_vector3.cpp: 100% coverage
+rz_core_vector3.h: 100% coverage
+rz_core_vector3_factory.cpp: 100% coverage
+rz_core_visitor_pattern.h: 100% coverage
+rz_core_angles.cpp: 0% coverage, this file was not tested at all
+rz_core_interpolation.cpp: 0% coverage, this file was not tested at all
+rz_core_quaternion.cpp: 0% coverage, this file was not tested at all
+rz_core_terminal.cpp: 0% coverage, this file was not tested at all
+**********************
+Windows PowerShell transcript end
+End time: 20150621144115
+**********************
